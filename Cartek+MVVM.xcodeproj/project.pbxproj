@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D089587729CFD97500338087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089587629CFD97500338087 /* AppDelegate.swift */; };
+		D089587929CFD97500338087 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089587829CFD97500338087 /* SceneDelegate.swift */; };
+		D089587B29CFD97500338087 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089587A29CFD97500338087 /* ViewController.swift */; };
+		D089587E29CFD97500338087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D089587C29CFD97500338087 /* Main.storyboard */; };
+		D089588029CFD97900338087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D089587F29CFD97900338087 /* Assets.xcassets */; };
+		D089588329CFD97900338087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D089588129CFD97900338087 /* LaunchScreen.storyboard */; };
+		D089588E29CFD97900338087 /* Cartek_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089588D29CFD97900338087 /* Cartek_MVVMTests.swift */; };
+		D089589829CFD97900338087 /* Cartek_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089589729CFD97900338087 /* Cartek_MVVMUITests.swift */; };
+		D089589A29CFD97900338087 /* Cartek_MVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089589929CFD97900338087 /* Cartek_MVVMUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D089588A29CFD97900338087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D089586B29CFD97400338087 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D089587229CFD97400338087;
+			remoteInfo = "Cartek+MVVM";
+		};
+		D089589429CFD97900338087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D089586B29CFD97400338087 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D089587229CFD97400338087;
+			remoteInfo = "Cartek+MVVM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D089587329CFD97400338087 /* Cartek+MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cartek+MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D089587629CFD97500338087 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D089587829CFD97500338087 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D089587A29CFD97500338087 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D089587D29CFD97500338087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D089587F29CFD97900338087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D089588229CFD97900338087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D089588429CFD97900338087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D089588929CFD97900338087 /* Cartek+MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cartek+MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D089588D29CFD97900338087 /* Cartek_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cartek_MVVMTests.swift; sourceTree = "<group>"; };
+		D089589329CFD97900338087 /* Cartek+MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cartek+MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D089589729CFD97900338087 /* Cartek_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cartek_MVVMUITests.swift; sourceTree = "<group>"; };
+		D089589929CFD97900338087 /* Cartek_MVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cartek_MVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D089587029CFD97400338087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D089588629CFD97900338087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D089589029CFD97900338087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D089586A29CFD97400338087 = {
+			isa = PBXGroup;
+			children = (
+				D089587529CFD97400338087 /* Cartek+MVVM */,
+				D089588C29CFD97900338087 /* Cartek+MVVMTests */,
+				D089589629CFD97900338087 /* Cartek+MVVMUITests */,
+				D089587429CFD97400338087 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D089587429CFD97400338087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D089587329CFD97400338087 /* Cartek+MVVM.app */,
+				D089588929CFD97900338087 /* Cartek+MVVMTests.xctest */,
+				D089589329CFD97900338087 /* Cartek+MVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D089587529CFD97400338087 /* Cartek+MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				D089587629CFD97500338087 /* AppDelegate.swift */,
+				D089587829CFD97500338087 /* SceneDelegate.swift */,
+				D089587A29CFD97500338087 /* ViewController.swift */,
+				D089587C29CFD97500338087 /* Main.storyboard */,
+				D089587F29CFD97900338087 /* Assets.xcassets */,
+				D089588129CFD97900338087 /* LaunchScreen.storyboard */,
+				D089588429CFD97900338087 /* Info.plist */,
+			);
+			path = "Cartek+MVVM";
+			sourceTree = "<group>";
+		};
+		D089588C29CFD97900338087 /* Cartek+MVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				D089588D29CFD97900338087 /* Cartek_MVVMTests.swift */,
+			);
+			path = "Cartek+MVVMTests";
+			sourceTree = "<group>";
+		};
+		D089589629CFD97900338087 /* Cartek+MVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D089589729CFD97900338087 /* Cartek_MVVMUITests.swift */,
+				D089589929CFD97900338087 /* Cartek_MVVMUITestsLaunchTests.swift */,
+			);
+			path = "Cartek+MVVMUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D089587229CFD97400338087 /* Cartek+MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D089589D29CFD97900338087 /* Build configuration list for PBXNativeTarget "Cartek+MVVM" */;
+			buildPhases = (
+				D089586F29CFD97400338087 /* Sources */,
+				D089587029CFD97400338087 /* Frameworks */,
+				D089587129CFD97400338087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cartek+MVVM";
+			productName = "Cartek+MVVM";
+			productReference = D089587329CFD97400338087 /* Cartek+MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D089588829CFD97900338087 /* Cartek+MVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08958A029CFD97900338087 /* Build configuration list for PBXNativeTarget "Cartek+MVVMTests" */;
+			buildPhases = (
+				D089588529CFD97900338087 /* Sources */,
+				D089588629CFD97900338087 /* Frameworks */,
+				D089588729CFD97900338087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D089588B29CFD97900338087 /* PBXTargetDependency */,
+			);
+			name = "Cartek+MVVMTests";
+			productName = "Cartek+MVVMTests";
+			productReference = D089588929CFD97900338087 /* Cartek+MVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D089589229CFD97900338087 /* Cartek+MVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08958A329CFD97900338087 /* Build configuration list for PBXNativeTarget "Cartek+MVVMUITests" */;
+			buildPhases = (
+				D089588F29CFD97900338087 /* Sources */,
+				D089589029CFD97900338087 /* Frameworks */,
+				D089589129CFD97900338087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D089589529CFD97900338087 /* PBXTargetDependency */,
+			);
+			name = "Cartek+MVVMUITests";
+			productName = "Cartek+MVVMUITests";
+			productReference = D089589329CFD97900338087 /* Cartek+MVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D089586B29CFD97400338087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D089587229CFD97400338087 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D089588829CFD97900338087 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D089587229CFD97400338087;
+					};
+					D089589229CFD97900338087 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D089587229CFD97400338087;
+					};
+				};
+			};
+			buildConfigurationList = D089586E29CFD97400338087 /* Build configuration list for PBXProject "Cartek+MVVM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D089586A29CFD97400338087;
+			productRefGroup = D089587429CFD97400338087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D089587229CFD97400338087 /* Cartek+MVVM */,
+				D089588829CFD97900338087 /* Cartek+MVVMTests */,
+				D089589229CFD97900338087 /* Cartek+MVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D089587129CFD97400338087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D089588329CFD97900338087 /* LaunchScreen.storyboard in Resources */,
+				D089588029CFD97900338087 /* Assets.xcassets in Resources */,
+				D089587E29CFD97500338087 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D089588729CFD97900338087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D089589129CFD97900338087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D089586F29CFD97400338087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D089587B29CFD97500338087 /* ViewController.swift in Sources */,
+				D089587729CFD97500338087 /* AppDelegate.swift in Sources */,
+				D089587929CFD97500338087 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D089588529CFD97900338087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D089588E29CFD97900338087 /* Cartek_MVVMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D089588F29CFD97900338087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D089589A29CFD97900338087 /* Cartek_MVVMUITestsLaunchTests.swift in Sources */,
+				D089589829CFD97900338087 /* Cartek_MVVMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D089588B29CFD97900338087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D089587229CFD97400338087 /* Cartek+MVVM */;
+			targetProxy = D089588A29CFD97900338087 /* PBXContainerItemProxy */;
+		};
+		D089589529CFD97900338087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D089587229CFD97400338087 /* Cartek+MVVM */;
+			targetProxy = D089589429CFD97900338087 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D089587C29CFD97500338087 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D089587D29CFD97500338087 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D089588129CFD97900338087 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D089588229CFD97900338087 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D089589B29CFD97900338087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D089589C29CFD97900338087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D089589E29CFD97900338087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cartek+MVVM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Cartek-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D089589F29CFD97900338087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cartek+MVVM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Cartek-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D08958A129CFD97900338087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Cartek-MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cartek+MVVM.app/Cartek+MVVM";
+			};
+			name = Debug;
+		};
+		D08958A229CFD97900338087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Cartek-MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cartek+MVVM.app/Cartek+MVVM";
+			};
+			name = Release;
+		};
+		D08958A429CFD97900338087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Cartek-MVVMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cartek+MVVM";
+			};
+			name = Debug;
+		};
+		D08958A529CFD97900338087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Cartek-MVVMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cartek+MVVM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D089586E29CFD97400338087 /* Build configuration list for PBXProject "Cartek+MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D089589B29CFD97900338087 /* Debug */,
+				D089589C29CFD97900338087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D089589D29CFD97900338087 /* Build configuration list for PBXNativeTarget "Cartek+MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D089589E29CFD97900338087 /* Debug */,
+				D089589F29CFD97900338087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08958A029CFD97900338087 /* Build configuration list for PBXNativeTarget "Cartek+MVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08958A129CFD97900338087 /* Debug */,
+				D08958A229CFD97900338087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08958A329CFD97900338087 /* Build configuration list for PBXNativeTarget "Cartek+MVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08958A429CFD97900338087 /* Debug */,
+				D08958A529CFD97900338087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D089586B29CFD97400338087 /* Project object */;
+}
