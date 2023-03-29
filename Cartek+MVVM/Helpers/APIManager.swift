@@ -73,3 +73,4 @@ final class APIManager {
             "Content-Type": "application/json"
         ]
     }
+}

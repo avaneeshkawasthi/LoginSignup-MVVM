@@ -11,4 +11,11 @@ enum Constant {
     enum API {
         static let usersURL = "https://jsonplaceholder.typicode.com/users."
     }
+    
+    enum TABLE {
+        static let createTableString = "CREATE TABLE IF NOT EXISTS User(Id INTEGER PRIMARY KEY,username TEXT,password TEXT);"
+        static let readAllDataQuery = "SELECT * FROM User;"
+    }
 }
+
+
