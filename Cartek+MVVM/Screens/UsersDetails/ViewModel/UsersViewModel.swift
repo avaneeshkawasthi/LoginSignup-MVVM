@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 final class UsersViewModel {
 
     var users: [User] = []
@@ -28,4 +27,15 @@ final class UsersViewModel {
                 }
             }
     }
+}
+
+extension UsersViewModel {
+
+    enum Event {
+        case loading
+        case stopLoading
+        case dataLoaded
+        case error(Error?)
+    }
+
 }

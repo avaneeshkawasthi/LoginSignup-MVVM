@@ -12,6 +12,7 @@ class LoginViewModel {
     
     // MARK: - Stored Properties
     private let loginManager: LoginManager!
+    private let databaseManager : DatabaseManager!
     
     //Here our model notify that was updated
     private var credentials = Credentials() {
@@ -30,8 +31,9 @@ class LoginViewModel {
     var errorMessage: Observable<String?> = Observable(nil)
     
     
-    init(loginManager: LoginManager) {
+    init(loginManager: LoginManager , databseManager : DatabaseManager) {
         self.loginManager = loginManager
+        self.databaseManager = databseManager
     }
     
     //Here we update our model
@@ -40,20 +42,17 @@ class LoginViewModel {
         credentials.password = password
     }
     
-    func presentMainController() {
-        
-    }
-    
-    func login() {
+    func login(_ Handler: (Bool,String) -> Void ) {
         loginManager.loginWithCredentials(username: credentials.username, password: credentials.password) { isLoginSuccess in
             if (isLoginSuccess) {
-                self.presentMainController()
+                //make the home controller root view controller and give option for logout
+                Handler(true,"")
             }
-        } Failure: { [weak self] (error) in
-             guard let error = error else {
+        } Failure: { (error) in
+             guard let error = error as? String else {
                  return
              }
-          self?.errorMessage.value = error.localizedDescription
+             Handler(false,error)
         }
     }
     

@@ -6,14 +6,18 @@
 //
 
 import UIKit
+import CountryPickerView
 
 class LoginViewController: UIViewController {
 
     
-    // MARK: - Stored Properties
+       // MARK: - Stored Properties
         var loginViewModel: LoginViewModel!
+        var pickerView : CountryPickerView!
      
        //MARK: - IBOutlets
+    
+       @IBOutlet weak var countryTextField: UITextField!
        @IBOutlet weak var usernameTextField: UITextField!
        @IBOutlet weak var passwordTextField: UITextField!
        @IBOutlet weak var loginErrorDescriptionLabel: UILabel!
@@ -27,6 +31,7 @@ class LoginViewController: UIViewController {
            passwordTextField.delegate = self
            loginButton.layer.cornerRadius = 5
            bindData()
+           setupCountryPicker()
        }
        
        
@@ -44,22 +49,48 @@ class LoginViewController: UIViewController {
            }
        }
     
-      func bindData() {
+    @IBAction func selectCountryPressed(_ sender: UIButton) {
+        self.pickerView.showCountriesList(from: self)
+    }
+    
+    func bindData() {
             loginViewModel.credentialsInputErrorMessage.bind { [weak self] in
                 self?.loginErrorDescriptionLabel.isHidden = false
                 self?.loginErrorDescriptionLabel.text = $0
             }
-            loginViewModel.errorMessage.bind {
+            
+            loginViewModel.isUsernameTextFieldHighLighted.bind { [weak self] in
+                if $0 { self?.highlightTextField((self?.usernameTextField)!)}
+            }
+            
+            loginViewModel.isPasswordTextFieldHighLighted.bind { [weak self] in
+                if $0 { self?.highlightTextField((self?.passwordTextField)!)}
+            }
+            
+            loginViewModel.errorMessage.bind { [weak self] in
                 guard let errorMessage = $0 else { return }
-                let alert = UIAlertController(title: "", message: errorMessage, preferredStyle: .alert)
-                let alertAction = UIAlertAction(title: "Ok", style: .cancel)
-                alert.addAction(alertAction)
-                self.present(alert, animated: true)
+                self?.presentAlertWithTitleAndMessage(title: Constant.AlertTitle, message: errorMessage, options: "Ok") { index in
+                }
             }
         }
+    
+    func setupCountryPicker() {
+        pickerView = CountryPickerView(frame:CGRect(origin: self.view.frame.origin, size: self.view.frame.size))
+        pickerView.delegate = self
+    }
        
        func login() {
-           loginViewModel.login()
+           loginViewModel.login { isSuccess, error in
+               if isSuccess {
+                   let story = UIStoryboard(name: "Main", bundle:nil)
+                   let vc = story.instantiateViewController(withIdentifier: "UsersViewController") as! UsersViewController
+                   UIApplication.shared.windows.first?.rootViewController = vc
+                   UIApplication.shared.windows.first?.makeKeyAndVisible()
+               }
+               else {
+                   presentAlertWithTitleAndMessage(title: Constant.AlertTitle, message: error, options: "Ok") { index in
+                   }
+               }
+           }
        }
-       
 }

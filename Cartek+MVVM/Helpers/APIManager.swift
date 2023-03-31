@@ -39,14 +39,14 @@ final class APIManager {
         request.httpMethod = type.method.rawValue
 
         if let parameters = type.body {
-            request.httpBody = try? JSONEncoder().encode(parameters)
+            request.httpBody = try? JSONEncoder().encode(parameters.toJSONData())
         }
 
         request.allHTTPHeaderFields = type.headers
 
         // Background task
         URLSession.shared.dataTask(with: request) { data, response, error in
-            guard let data, error == nil else {
+            guard let data = data, error == nil else {
                 completion(.failure(.invalidData))
                 return
             }

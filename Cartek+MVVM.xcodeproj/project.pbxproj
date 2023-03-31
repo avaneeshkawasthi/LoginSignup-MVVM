@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29690AFE99D3609CD050640B /* Pods_Cartek_MVVM_Cartek_MVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADDDAF8A10C70C08B00D8DE /* Pods_Cartek_MVVM_Cartek_MVVMUITests.framework */; };
+		79016B6D29D67427000AFDE1 /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79016B6C29D67427000AFDE1 /* AlertExtension.swift */; };
+		792CEF0829D735F100B39C81 /* UsersViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792CEF0729D735F100B39C81 /* UsersViewControllerExtension.swift */; };
+		C529B2FA260D05C5C1D6B64D /* Pods_Cartek_MVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580C57CAB41A3904753DB703 /* Pods_Cartek_MVVMTests.framework */; };
+		C817BFE12D6B5EC1185A81DB /* Pods_Cartek_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF380BE42A2B8CF14B476E21 /* Pods_Cartek_MVVM.framework */; };
 		D089588E29CFD97900338087 /* Cartek_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089588D29CFD97900338087 /* Cartek_MVVMTests.swift */; };
 		D089589829CFD97900338087 /* Cartek_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089589729CFD97900338087 /* Cartek_MVVMUITests.swift */; };
 		D089589A29CFD97900338087 /* Cartek_MVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089589929CFD97900338087 /* Cartek_MVVMUITestsLaunchTests.swift */; };
@@ -25,7 +30,6 @@
 		D089590729D0547300338087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08958EF29D0547300338087 /* Main.storyboard */; };
 		D089590829D0547300338087 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08958F229D0547300338087 /* Constants.swift */; };
 		D089590929D0547300338087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08958F429D0547300338087 /* Assets.xcassets */; };
-		D089590A29D0547300338087 /* DatabaseMangerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08958F629D0547300338087 /* DatabaseMangerExtension.swift */; };
 		D089590B29D0547300338087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08958F929D0547300338087 /* AppDelegate.swift */; };
 		D089590C29D0547300338087 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08958FA29D0547300338087 /* SceneDelegate.swift */; };
 		D089591129D054DB00338087 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089591029D054DB00338087 /* Credentials.swift */; };
@@ -54,6 +58,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16B6F54F362578D257838678 /* Pods-Cartek+MVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartek+MVVMTests.release.xcconfig"; path = "Target Support Files/Pods-Cartek+MVVMTests/Pods-Cartek+MVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		31048CA41BB9BC1EA1C10AA8 /* Pods-Cartek+MVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartek+MVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-Cartek+MVVMTests/Pods-Cartek+MVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		580C57CAB41A3904753DB703 /* Pods_Cartek_MVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cartek_MVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79016B6C29D67427000AFDE1 /* AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
+		792CEF0729D735F100B39C81 /* UsersViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewControllerExtension.swift; sourceTree = "<group>"; };
+		9823A935A4A5AA245BB66F5E /* Pods-Cartek+MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartek+MVVM.debug.xcconfig"; path = "Target Support Files/Pods-Cartek+MVVM/Pods-Cartek+MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		B8D4363974FD0373E713B49D /* Pods-Cartek+MVVM-Cartek+MVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartek+MVVM-Cartek+MVVMUITests.release.xcconfig"; path = "Target Support Files/Pods-Cartek+MVVM-Cartek+MVVMUITests/Pods-Cartek+MVVM-Cartek+MVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CA81FEF2CC06EA2F7E699711 /* Pods-Cartek+MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartek+MVVM.release.xcconfig"; path = "Target Support Files/Pods-Cartek+MVVM/Pods-Cartek+MVVM.release.xcconfig"; sourceTree = "<group>"; };
 		D089587329CFD97400338087 /* Cartek+MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cartek+MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D089588429CFD97900338087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D089588929CFD97900338087 /* Cartek+MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cartek+MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,7 +88,6 @@
 		D08958F029D0547300338087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D08958F229D0547300338087 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D08958F429D0547300338087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D08958F629D0547300338087 /* DatabaseMangerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseMangerExtension.swift; sourceTree = "<group>"; };
 		D08958F929D0547300338087 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D08958FA29D0547300338087 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D089591029D054DB00338087 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
@@ -85,6 +96,9 @@
 		D0F71BD129D09CE100C95676 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		D0F71BD329D09D4500C95676 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		D0F71BD529D0A02A00C95676 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		DE132339F13D4098F74E3A97 /* Pods-Cartek+MVVM-Cartek+MVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartek+MVVM-Cartek+MVVMUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cartek+MVVM-Cartek+MVVMUITests/Pods-Cartek+MVVM-Cartek+MVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EADDDAF8A10C70C08B00D8DE /* Pods_Cartek_MVVM_Cartek_MVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cartek_MVVM_Cartek_MVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF380BE42A2B8CF14B476E21 /* Pods_Cartek_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cartek_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C817BFE12D6B5EC1185A81DB /* Pods_Cartek_MVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C529B2FA260D05C5C1D6B64D /* Pods_Cartek_MVVMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,12 +122,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29690AFE99D3609CD050640B /* Pods_Cartek_MVVM_Cartek_MVVMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05AD1F9D6270502B0ABE3FED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9823A935A4A5AA245BB66F5E /* Pods-Cartek+MVVM.debug.xcconfig */,
+				CA81FEF2CC06EA2F7E699711 /* Pods-Cartek+MVVM.release.xcconfig */,
+				DE132339F13D4098F74E3A97 /* Pods-Cartek+MVVM-Cartek+MVVMUITests.debug.xcconfig */,
+				B8D4363974FD0373E713B49D /* Pods-Cartek+MVVM-Cartek+MVVMUITests.release.xcconfig */,
+				31048CA41BB9BC1EA1C10AA8 /* Pods-Cartek+MVVMTests.debug.xcconfig */,
+				16B6F54F362578D257838678 /* Pods-Cartek+MVVMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		48C245C9EEE5A8720C4B8C34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF380BE42A2B8CF14B476E21 /* Pods_Cartek_MVVM.framework */,
+				EADDDAF8A10C70C08B00D8DE /* Pods_Cartek_MVVM_Cartek_MVVMUITests.framework */,
+				580C57CAB41A3904753DB703 /* Pods_Cartek_MVVMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D089586A29CFD97400338087 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +159,8 @@
 				D089588C29CFD97900338087 /* Cartek+MVVMTests */,
 				D089589629CFD97900338087 /* Cartek+MVVMUITests */,
 				D089587429CFD97400338087 /* Products */,
+				05AD1F9D6270502B0ABE3FED /* Pods */,
+				48C245C9EEE5A8720C4B8C34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -319,8 +361,9 @@
 		D08958F529D0547300338087 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				D08958F629D0547300338087 /* DatabaseMangerExtension.swift */,
+				792CEF0729D735F100B39C81 /* UsersViewControllerExtension.swift */,
 				D089591729D0556000338087 /* LoginViewControllerExtension.swift */,
+				79016B6C29D67427000AFDE1 /* AlertExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -380,9 +423,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D089589D29CFD97900338087 /* Build configuration list for PBXNativeTarget "Cartek+MVVM" */;
 			buildPhases = (
+				4B25DD5FE4FE5B81B7DC265F /* [CP] Check Pods Manifest.lock */,
 				D089586F29CFD97400338087 /* Sources */,
 				D089587029CFD97400338087 /* Frameworks */,
 				D089587129CFD97400338087 /* Resources */,
+				89F9A616F60C8C1563A24138 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -397,6 +442,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D08958A029CFD97900338087 /* Build configuration list for PBXNativeTarget "Cartek+MVVMTests" */;
 			buildPhases = (
+				99E9889F0D0338252A2B39C0 /* [CP] Check Pods Manifest.lock */,
 				D089588529CFD97900338087 /* Sources */,
 				D089588629CFD97900338087 /* Frameworks */,
 				D089588729CFD97900338087 /* Resources */,
@@ -415,9 +461,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D08958A329CFD97900338087 /* Build configuration list for PBXNativeTarget "Cartek+MVVMUITests" */;
 			buildPhases = (
+				9CFF104493703D15AEF961A5 /* [CP] Check Pods Manifest.lock */,
 				D089588F29CFD97900338087 /* Sources */,
 				D089589029CFD97900338087 /* Frameworks */,
 				D089589129CFD97900338087 /* Resources */,
+				FEB5D4F294D260525380A593 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -500,11 +548,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B25DD5FE4FE5B81B7DC265F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cartek+MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89F9A616F60C8C1563A24138 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cartek+MVVM/Pods-Cartek+MVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cartek+MVVM/Pods-Cartek+MVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cartek+MVVM/Pods-Cartek+MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E9889F0D0338252A2B39C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cartek+MVVMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFF104493703D15AEF961A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cartek+MVVM-Cartek+MVVMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEB5D4F294D260525380A593 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cartek+MVVM-Cartek+MVVMUITests/Pods-Cartek+MVVM-Cartek+MVVMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cartek+MVVM-Cartek+MVVMUITests/Pods-Cartek+MVVM-Cartek+MVVMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cartek+MVVM-Cartek+MVVMUITests/Pods-Cartek+MVVM-Cartek+MVVMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D089586F29CFD97400338087 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79016B6D29D67427000AFDE1 /* AlertExtension.swift in Sources */,
 				D0F71BD429D09D4500C95676 /* Observable.swift in Sources */,
 				D089590329D0547300338087 /* EndPointType.swift in Sources */,
 				D089590C29D0547300338087 /* SceneDelegate.swift in Sources */,
@@ -519,11 +671,11 @@
 				D089591829D0556000338087 /* LoginViewControllerExtension.swift in Sources */,
 				D089590229D0547300338087 /* ProductEndPointType.swift in Sources */,
 				D089590B29D0547300338087 /* AppDelegate.swift in Sources */,
-				D089590A29D0547300338087 /* DatabaseMangerExtension.swift in Sources */,
 				D08958FE29D0547300338087 /* UsersModel.swift in Sources */,
 				D089591429D0552E00338087 /* LoginViewController.swift in Sources */,
 				D089591129D054DB00338087 /* Credentials.swift in Sources */,
 				D08958FB29D0547300338087 /* RegisterViewModel.swift in Sources */,
+				792CEF0829D735F100B39C81 /* UsersViewControllerExtension.swift in Sources */,
 				D08958FF29D0547300338087 /* UserTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -696,6 +848,7 @@
 		};
 		D089589E29CFD97900338087 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9823A935A4A5AA245BB66F5E /* Pods-Cartek+MVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -723,6 +876,7 @@
 		};
 		D089589F29CFD97900338087 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA81FEF2CC06EA2F7E699711 /* Pods-Cartek+MVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -750,6 +904,7 @@
 		};
 		D08958A129CFD97900338087 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31048CA41BB9BC1EA1C10AA8 /* Pods-Cartek+MVVMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -769,6 +924,7 @@
 		};
 		D08958A229CFD97900338087 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B6F54F362578D257838678 /* Pods-Cartek+MVVMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -788,6 +944,7 @@
 		};
 		D08958A429CFD97900338087 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE132339F13D4098F74E3A97 /* Pods-Cartek+MVVM-Cartek+MVVMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -805,6 +962,7 @@
 		};
 		D08958A529CFD97900338087 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D4363974FD0373E713B49D /* Pods-Cartek+MVVM-Cartek+MVVMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

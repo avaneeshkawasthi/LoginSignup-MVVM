@@ -1,0 +1,1104 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05DBACBC34F3284F06673711851EAC1A /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 5FD242B00FAF7F64E742D1E9D2D20AD3 /* Data */; };
+		13CDF9F2413D0BA953084A1E39E92134 /* Pods-Cartek+MVVM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 477ACC8B1FE9ADFDBE4686E9D7CF0125 /* Pods-Cartek+MVVM-dummy.m */; };
+		15D3E2CA3E7BC6AE263A9D80622318B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		189057EF5EE1DACD150B2982DE5AB0A2 /* Pods-Cartek+MVVMTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B7B78EBE7514EF3ECDF19F338DCEE9 /* Pods-Cartek+MVVMTests-dummy.m */; };
+		235753E1964888C68DA0D95861369860 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A9F56171C17A5399EFF25823129F8 /* NibView.swift */; };
+		2F442595AD8BD839AF7A124FB8AFF5E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		34618AA23B6F4CB96B733FEDF448C363 /* Pods-Cartek+MVVM-Cartek+MVVMUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DCBF5211EAB290C341813ED4F38F88 /* Pods-Cartek+MVVM-Cartek+MVVMUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EF1A763ACF331D107369FE490388F62 /* CountryPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49055CBB4703B1712762D6821653A208 /* CountryPickerView.xib */; };
+		400AB9F7CF1E4118097693FE78AD241E /* Pods-Cartek+MVVM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E63FFB331023C71E707DF5E4A7E94885 /* Pods-Cartek+MVVM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40B2527F9E0DF4F5AA277BB0FC5F38E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		52AAFAE075BE27ECA0ADF781A9A2E351 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220F19E9DB93C5552CEF0DB7C7FE85C7 /* Bundle.swift */; };
+		7ADEAC1BFEBFCF1CADF1C253537F1394 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD2B99CC6412D4C1D857F0033C3944 /* CountryPickerView.swift */; };
+		7BAE99FA1D2E2C7D903587E67BC9B593 /* CountryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B0906021DB8E7D730C3E6C0EB9FC0 /* CountryPickerViewController.swift */; };
+		81A18089AB8026183CB27BD0F4CFDBF3 /* CountryPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB5864250CD6DE0A11E772A5346FF08 /* CountryPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827542C01CF865F134E74BEFDA513C96 /* CountryPickerView-CountryPickerView_CountryPickerView in Resources */ = {isa = PBXBuildFile; fileRef = 920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView-CountryPickerView_CountryPickerView */; };
+		82F1F57B01F6422709D0ACDF96E2ADDD /* Pods-Cartek+MVVM-Cartek+MVVMUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C4FC1237EBD9585B315A113D51779D /* Pods-Cartek+MVVM-Cartek+MVVMUITests-dummy.m */; };
+		941B70D1D9818C99819B990A685F5DA9 /* Delegate+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC463E5DE2EB98AFD5126392324B0A2 /* Delegate+DataSource.swift */; };
+		AD677B4BE46DE9F6FF3C5FEC9A11D4E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9967B9BFB63AF3DDB769803093478C94 /* Extensions.swift */; };
+		B8F704F472DA7A3A9E42DA12CED01659 /* Pods-Cartek+MVVMTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB54EAEEA1FD801798BE993D026CCF9 /* Pods-Cartek+MVVMTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD35B1959A8AD92E9C9FB37CE1844C36 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 27BCD9A50EC95E8F044E6160607FCCA7 /* Images */; };
+		DF2D69AAD6AA394C171E8BE866B474AA /* CountryPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D81C1E8AE56E802F40DE29B24F8422 /* CountryPickerView-dummy.m */; };
+		EFF4CFF7D836A4CB4C65C93354627EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0601B1E1D2DA31EE9FE7ACC3AFA90828 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81AA88F2453B4A0E544BF0FB08E13D87;
+			remoteInfo = CountryPickerView;
+		};
+		7AE3B50C2A687E92C0FFA28E3D46E526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C66815D479C63B50104FE776E5F71C9;
+			remoteInfo = "Pods-Cartek+MVVM";
+		};
+		E01301621CC12144BBFFA04486632190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81AA88F2453B4A0E544BF0FB08E13D87;
+			remoteInfo = CountryPickerView;
+		};
+		FF94CCDE8FFBF47909274381C4F880D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43E53E03FD1BE73C8433078A971781F1;
+			remoteInfo = "CountryPickerView-CountryPickerView_CountryPickerView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FAAFA42176FEDDA87F97B7AC38C57A6 /* Pods-Cartek+MVVMTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cartek+MVVMTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A1AB4F130CD16D64A436E0A1F83024A /* Pods-Cartek+MVVM-Cartek+MVVMUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Cartek+MVVM-Cartek+MVVMUITests"; path = Pods_Cartek_MVVM_Cartek_MVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1A9F56171C17A5399EFF25823129F8 /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibView.swift; path = CountryPickerView/NibView.swift; sourceTree = "<group>"; };
+		1F5E4F2580B576E1999BC1C91DA0E2BC /* Pods-Cartek+MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cartek+MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		220F19E9DB93C5552CEF0DB7C7FE85C7 /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bundle.swift; path = CountryPickerView/Bundle.swift; sourceTree = "<group>"; };
+		27BCD9A50EC95E8F044E6160607FCCA7 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; name = Images; path = CountryPickerView/Resources/Images; sourceTree = "<group>"; };
+		2A30112306549253B3210F88004F5421 /* Pods-Cartek+MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cartek+MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		2B55A995FFD90F420D6CC18BD82A095C /* Pods-Cartek+MVVM-Cartek+MVVMUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cartek+MVVM-Cartek+MVVMUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BCD2B99CC6412D4C1D857F0033C3944 /* CountryPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPickerView.swift; path = CountryPickerView/CountryPickerView.swift; sourceTree = "<group>"; };
+		2E3983810EFB3298A74BCE831B368DF8 /* Pods-Cartek+MVVM */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Cartek+MVVM"; path = Pods_Cartek_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		416CA218F8F7908DFDC3DD70E9EB3979 /* Pods-Cartek+MVVM-Cartek+MVVMUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cartek+MVVM-Cartek+MVVMUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		477ACC8B1FE9ADFDBE4686E9D7CF0125 /* Pods-Cartek+MVVM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cartek+MVVM-dummy.m"; sourceTree = "<group>"; };
+		49055CBB4703B1712762D6821653A208 /* CountryPickerView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CountryPickerView.xib; path = CountryPickerView/Resources/CountryPickerView.xib; sourceTree = "<group>"; };
+		52C4FC1237EBD9585B315A113D51779D /* Pods-Cartek+MVVM-Cartek+MVVMUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cartek+MVVM-Cartek+MVVMUITests-dummy.m"; sourceTree = "<group>"; };
+		5361F2CE221E0FDC9548339575E12A07 /* Pods-Cartek+MVVM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cartek+MVVM-acknowledgements.markdown"; sourceTree = "<group>"; };
+		598DDA517E6B1F28B4DBFC1B79224D2E /* Pods-Cartek+MVVMTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cartek+MVVMTests.modulemap"; sourceTree = "<group>"; };
+		59DCBF5211EAB290C341813ED4F38F88 /* Pods-Cartek+MVVM-Cartek+MVVMUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cartek+MVVM-Cartek+MVVMUITests-umbrella.h"; sourceTree = "<group>"; };
+		5DD0FDE1BE6563686C64A4590A18C3A5 /* Pods-Cartek+MVVM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cartek+MVVM.modulemap"; sourceTree = "<group>"; };
+		5EB18E54DB68C3C1632CC85D64C9E557 /* Pods-Cartek+MVVM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cartek+MVVM-Info.plist"; sourceTree = "<group>"; };
+		5FD242B00FAF7F64E742D1E9D2D20AD3 /* Data */ = {isa = PBXFileReference; includeInIndex = 1; name = Data; path = CountryPickerView/Resources/Data; sourceTree = "<group>"; };
+		6511155669CBA3587FA19B1F94DEF222 /* CountryPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryPickerView.debug.xcconfig; sourceTree = "<group>"; };
+		6B41C0051021E00061FAA75F0E8A7996 /* CountryPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryPickerView.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		735A8EDC5EAA60E1E411651960823466 /* Pods-Cartek+MVVM-Cartek+MVVMUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cartek+MVVM-Cartek+MVVMUITests-Info.plist"; sourceTree = "<group>"; };
+		78322CEC0CC20ABE19CBCD2D7513DD43 /* Pods-Cartek+MVVM-Cartek+MVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cartek+MVVM-Cartek+MVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C635E103F803FFA30C7D9481001B9C2 /* Pods-Cartek+MVVM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cartek+MVVM-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CC463E5DE2EB98AFD5126392324B0A2 /* Delegate+DataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Delegate+DataSource.swift"; path = "CountryPickerView/Delegate+DataSource.swift"; sourceTree = "<group>"; };
+		7FB54EAEEA1FD801798BE993D026CCF9 /* Pods-Cartek+MVVMTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cartek+MVVMTests-umbrella.h"; sourceTree = "<group>"; };
+		8B4B0906021DB8E7D730C3E6C0EB9FC0 /* CountryPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPickerViewController.swift; path = CountryPickerView/CountryPickerViewController.swift; sourceTree = "<group>"; };
+		8D74AA641A70C86BD5E78CC5B4072C31 /* Pods-Cartek+MVVM-Cartek+MVVMUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cartek+MVVM-Cartek+MVVMUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8EF2C65FE2F6DE6A77D7B9B19FBD8ADE /* Pods-Cartek+MVVM-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cartek+MVVM-frameworks.sh"; sourceTree = "<group>"; };
+		8F056CDDA57A0296B68EDD95F50FBA12 /* Pods-Cartek+MVVMTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Cartek+MVVMTests"; path = Pods_Cartek_MVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView-CountryPickerView_CountryPickerView */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CountryPickerView-CountryPickerView_CountryPickerView"; path = CountryPickerView_CountryPickerView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9967B9BFB63AF3DDB769803093478C94 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CountryPickerView/Extensions.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAD74660C39A4FA54B2F9B75BBD51D6C /* ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist"; sourceTree = "<group>"; };
+		B042242D4B10B5807280E2D0579BD9A2 /* CountryPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryPickerView-prefix.pch"; sourceTree = "<group>"; };
+		C5D81C1E8AE56E802F40DE29B24F8422 /* CountryPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CountryPickerView-dummy.m"; sourceTree = "<group>"; };
+		D1469C790F1D8B5DE6C480B12ADF50D7 /* Pods-Cartek+MVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cartek+MVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2C4F952DD13EE2619DB9DB1AE2CD50A /* Pods-Cartek+MVVM-Cartek+MVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cartek+MVVM-Cartek+MVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D32EA53879A86B1AEB7C6B4F6AE224B7 /* Pods-Cartek+MVVM-Cartek+MVVMUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cartek+MVVM-Cartek+MVVMUITests.modulemap"; sourceTree = "<group>"; };
+		D58E736356D48E0A1ACAAE5F7489E22B /* CountryPickerView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CountryPickerView; path = CountryPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E096C7BE7D3CDBE24D168C08255C5F /* Pods-Cartek+MVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cartek+MVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		E591FF35C4C10DE44F463635A36F87A4 /* CountryPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CountryPickerView-Info.plist"; sourceTree = "<group>"; };
+		E63FFB331023C71E707DF5E4A7E94885 /* Pods-Cartek+MVVM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cartek+MVVM-umbrella.h"; sourceTree = "<group>"; };
+		EAB5864250CD6DE0A11E772A5346FF08 /* CountryPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryPickerView-umbrella.h"; sourceTree = "<group>"; };
+		F361A60B3BAA0A7C6C56A758A91E8AEB /* CountryPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CountryPickerView.modulemap; sourceTree = "<group>"; };
+		F3B7B78EBE7514EF3ECDF19F338DCEE9 /* Pods-Cartek+MVVMTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cartek+MVVMTests-dummy.m"; sourceTree = "<group>"; };
+		F84783E0C5DC01793D1376A4B48C0CD7 /* Pods-Cartek+MVVMTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cartek+MVVMTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FCAB5A35ABDD466AB5D2AF14DB372044 /* Pods-Cartek+MVVMTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cartek+MVVMTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3A1265901DE875E58DB399F1BD61E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF4CFF7D836A4CB4C65C93354627EC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49856DD6C945D8989B993DCB7966329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B2527F9E0DF4F5AA277BB0FC5F38E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93BC2F18FB20698A12C2CBAC1C82193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F442595AD8BD839AF7A124FB8AFF5E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE38AB0AA167B377A9CEBB8BEA05499A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D3E2CA3E7BC6AE263A9D80622318B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD376517199155E0CC0173814F23FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ECD1E25618F35C099E4E67B90A54539 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9399F102086B3F9F11374B1D8FD411AC /* CountryPickerView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		34FC36414246204A00E2784C53B55F8A /* Pods-Cartek+MVVM-Cartek+MVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D32EA53879A86B1AEB7C6B4F6AE224B7 /* Pods-Cartek+MVVM-Cartek+MVVMUITests.modulemap */,
+				416CA218F8F7908DFDC3DD70E9EB3979 /* Pods-Cartek+MVVM-Cartek+MVVMUITests-acknowledgements.markdown */,
+				2B55A995FFD90F420D6CC18BD82A095C /* Pods-Cartek+MVVM-Cartek+MVVMUITests-acknowledgements.plist */,
+				52C4FC1237EBD9585B315A113D51779D /* Pods-Cartek+MVVM-Cartek+MVVMUITests-dummy.m */,
+				8D74AA641A70C86BD5E78CC5B4072C31 /* Pods-Cartek+MVVM-Cartek+MVVMUITests-frameworks.sh */,
+				735A8EDC5EAA60E1E411651960823466 /* Pods-Cartek+MVVM-Cartek+MVVMUITests-Info.plist */,
+				59DCBF5211EAB290C341813ED4F38F88 /* Pods-Cartek+MVVM-Cartek+MVVMUITests-umbrella.h */,
+				D2C4F952DD13EE2619DB9DB1AE2CD50A /* Pods-Cartek+MVVM-Cartek+MVVMUITests.debug.xcconfig */,
+				78322CEC0CC20ABE19CBCD2D7513DD43 /* Pods-Cartek+MVVM-Cartek+MVVMUITests.release.xcconfig */,
+			);
+			name = "Pods-Cartek+MVVM-Cartek+MVVMUITests";
+			path = "Target Support Files/Pods-Cartek+MVVM-Cartek+MVVMUITests";
+			sourceTree = "<group>";
+		};
+		3B23452C426F8EDDF898200A66E2152C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B953207CBACED15C3C4D29F5D5C3223 /* Pods-Cartek+MVVM */,
+				34FC36414246204A00E2784C53B55F8A /* Pods-Cartek+MVVM-Cartek+MVVMUITests */,
+				76F68C813EC1448C21FE09CEE98E3C19 /* Pods-Cartek+MVVMTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B953207CBACED15C3C4D29F5D5C3223 /* Pods-Cartek+MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				5DD0FDE1BE6563686C64A4590A18C3A5 /* Pods-Cartek+MVVM.modulemap */,
+				5361F2CE221E0FDC9548339575E12A07 /* Pods-Cartek+MVVM-acknowledgements.markdown */,
+				7C635E103F803FFA30C7D9481001B9C2 /* Pods-Cartek+MVVM-acknowledgements.plist */,
+				477ACC8B1FE9ADFDBE4686E9D7CF0125 /* Pods-Cartek+MVVM-dummy.m */,
+				8EF2C65FE2F6DE6A77D7B9B19FBD8ADE /* Pods-Cartek+MVVM-frameworks.sh */,
+				5EB18E54DB68C3C1632CC85D64C9E557 /* Pods-Cartek+MVVM-Info.plist */,
+				E63FFB331023C71E707DF5E4A7E94885 /* Pods-Cartek+MVVM-umbrella.h */,
+				1F5E4F2580B576E1999BC1C91DA0E2BC /* Pods-Cartek+MVVM.debug.xcconfig */,
+				2A30112306549253B3210F88004F5421 /* Pods-Cartek+MVVM.release.xcconfig */,
+			);
+			name = "Pods-Cartek+MVVM";
+			path = "Target Support Files/Pods-Cartek+MVVM";
+			sourceTree = "<group>";
+		};
+		6C0349720D0580FBCE3A54489498AEDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49055CBB4703B1712762D6821653A208 /* CountryPickerView.xib */,
+				5FD242B00FAF7F64E742D1E9D2D20AD3 /* Data */,
+				27BCD9A50EC95E8F044E6160607FCCA7 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		76F68C813EC1448C21FE09CEE98E3C19 /* Pods-Cartek+MVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				598DDA517E6B1F28B4DBFC1B79224D2E /* Pods-Cartek+MVVMTests.modulemap */,
+				F84783E0C5DC01793D1376A4B48C0CD7 /* Pods-Cartek+MVVMTests-acknowledgements.markdown */,
+				0FAAFA42176FEDDA87F97B7AC38C57A6 /* Pods-Cartek+MVVMTests-acknowledgements.plist */,
+				F3B7B78EBE7514EF3ECDF19F338DCEE9 /* Pods-Cartek+MVVMTests-dummy.m */,
+				FCAB5A35ABDD466AB5D2AF14DB372044 /* Pods-Cartek+MVVMTests-Info.plist */,
+				7FB54EAEEA1FD801798BE993D026CCF9 /* Pods-Cartek+MVVMTests-umbrella.h */,
+				D1469C790F1D8B5DE6C480B12ADF50D7 /* Pods-Cartek+MVVMTests.debug.xcconfig */,
+				E1E096C7BE7D3CDBE24D168C08255C5F /* Pods-Cartek+MVVMTests.release.xcconfig */,
+			);
+			name = "Pods-Cartek+MVVMTests";
+			path = "Target Support Files/Pods-Cartek+MVVMTests";
+			sourceTree = "<group>";
+		};
+		915DF026870F7F841EEECE6ABCAC637C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D58E736356D48E0A1ACAAE5F7489E22B /* CountryPickerView */,
+				920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView-CountryPickerView_CountryPickerView */,
+				2E3983810EFB3298A74BCE831B368DF8 /* Pods-Cartek+MVVM */,
+				1A1AB4F130CD16D64A436E0A1F83024A /* Pods-Cartek+MVVM-Cartek+MVVMUITests */,
+				8F056CDDA57A0296B68EDD95F50FBA12 /* Pods-Cartek+MVVMTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9399F102086B3F9F11374B1D8FD411AC /* CountryPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				220F19E9DB93C5552CEF0DB7C7FE85C7 /* Bundle.swift */,
+				2BCD2B99CC6412D4C1D857F0033C3944 /* CountryPickerView.swift */,
+				8B4B0906021DB8E7D730C3E6C0EB9FC0 /* CountryPickerViewController.swift */,
+				7CC463E5DE2EB98AFD5126392324B0A2 /* Delegate+DataSource.swift */,
+				9967B9BFB63AF3DDB769803093478C94 /* Extensions.swift */,
+				1B1A9F56171C17A5399EFF25823129F8 /* NibView.swift */,
+				6C0349720D0580FBCE3A54489498AEDA /* Resources */,
+				A10C9D31C8E9DDD1AED7A3B4ACC1439C /* Support Files */,
+			);
+			name = CountryPickerView;
+			path = CountryPickerView;
+			sourceTree = "<group>";
+		};
+		A10C9D31C8E9DDD1AED7A3B4ACC1439C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F361A60B3BAA0A7C6C56A758A91E8AEB /* CountryPickerView.modulemap */,
+				C5D81C1E8AE56E802F40DE29B24F8422 /* CountryPickerView-dummy.m */,
+				E591FF35C4C10DE44F463635A36F87A4 /* CountryPickerView-Info.plist */,
+				B042242D4B10B5807280E2D0579BD9A2 /* CountryPickerView-prefix.pch */,
+				EAB5864250CD6DE0A11E772A5346FF08 /* CountryPickerView-umbrella.h */,
+				6511155669CBA3587FA19B1F94DEF222 /* CountryPickerView.debug.xcconfig */,
+				6B41C0051021E00061FAA75F0E8A7996 /* CountryPickerView.release.xcconfig */,
+				AAD74660C39A4FA54B2F9B75BBD51D6C /* ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CountryPickerView";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0ECD1E25618F35C099E4E67B90A54539 /* Pods */,
+				915DF026870F7F841EEECE6ABCAC637C /* Products */,
+				3B23452C426F8EDDF898200A66E2152C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15DBC5C8FAF902DF38329FF830C55C85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400AB9F7CF1E4118097693FE78AD241E /* Pods-Cartek+MVVM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4205CA0ABE4B97DDF3CE5A466A0298D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34618AA23B6F4CB96B733FEDF448C363 /* Pods-Cartek+MVVM-Cartek+MVVMUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90056E3BEA9FB5D23E27B382191DECC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A18089AB8026183CB27BD0F4CFDBF3 /* CountryPickerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5D940FCC282935B2D0FB9176D1EC28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F704F472DA7A3A9E42DA12CED01659 /* Pods-Cartek+MVVMTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C66815D479C63B50104FE776E5F71C9 /* Pods-Cartek+MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10114C93801307AE77550DA7732B5D5 /* Build configuration list for PBXNativeTarget "Pods-Cartek+MVVM" */;
+			buildPhases = (
+				15DBC5C8FAF902DF38329FF830C55C85 /* Headers */,
+				FAF033F1B212DB36A80B8BB29B6BEAC1 /* Sources */,
+				B49856DD6C945D8989B993DCB7966329 /* Frameworks */,
+				FA9BD5407FFFD3CFEE8BA11B0282B214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B53E5C65EDFC4557539BE014FA571C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cartek+MVVM";
+			productName = Pods_Cartek_MVVM;
+			productReference = 2E3983810EFB3298A74BCE831B368DF8 /* Pods-Cartek+MVVM */;
+			productType = "com.apple.product-type.framework";
+		};
+		43E53E03FD1BE73C8433078A971781F1 /* CountryPickerView-CountryPickerView_CountryPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7E215CA107258ED8BEFFD5261FC9FF /* Build configuration list for PBXNativeTarget "CountryPickerView-CountryPickerView_CountryPickerView" */;
+			buildPhases = (
+				9A403D9410AD1A8DA57B63A2513BCF70 /* Sources */,
+				CDD376517199155E0CC0173814F23FB6 /* Frameworks */,
+				51A745806DD87EC23AEB8AEE021B833A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CountryPickerView-CountryPickerView_CountryPickerView";
+			productName = CountryPickerView_CountryPickerView;
+			productReference = 920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView-CountryPickerView_CountryPickerView */;
+			productType = "com.apple.product-type.bundle";
+		};
+		81AA88F2453B4A0E544BF0FB08E13D87 /* CountryPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06575BEB49E1F713C9E60F1CA7E39613 /* Build configuration list for PBXNativeTarget "CountryPickerView" */;
+			buildPhases = (
+				B90056E3BEA9FB5D23E27B382191DECC /* Headers */,
+				F6567B0878FA393F9278242AB645B572 /* Sources */,
+				BE38AB0AA167B377A9CEBB8BEA05499A /* Frameworks */,
+				B5FC880436BBF34A90E2DE935FFAEABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09677E0EDC8B7CB8EA04F3959BC1AE4E /* PBXTargetDependency */,
+			);
+			name = CountryPickerView;
+			productName = CountryPickerView;
+			productReference = D58E736356D48E0A1ACAAE5F7489E22B /* CountryPickerView */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD341197DBFA32DC55EF74DF1FF24513 /* Pods-Cartek+MVVM-Cartek+MVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFACDE2F7C38A69555E177BBA0D59EF6 /* Build configuration list for PBXNativeTarget "Pods-Cartek+MVVM-Cartek+MVVMUITests" */;
+			buildPhases = (
+				4205CA0ABE4B97DDF3CE5A466A0298D4 /* Headers */,
+				85FEB9DDEB5BE0C173CD2635AFBF0F47 /* Sources */,
+				B93BC2F18FB20698A12C2CBAC1C82193 /* Frameworks */,
+				8C38FA91A95C5BFB8C6458502E04C782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB6F4F90E888F1C75DE56AC8572F651 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cartek+MVVM-Cartek+MVVMUITests";
+			productName = Pods_Cartek_MVVM_Cartek_MVVMUITests;
+			productReference = 1A1AB4F130CD16D64A436E0A1F83024A /* Pods-Cartek+MVVM-Cartek+MVVMUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC7C95F8294C04CB01860893D6939060 /* Pods-Cartek+MVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F622EEA68EC5E0FF02B2D905418EAA /* Build configuration list for PBXNativeTarget "Pods-Cartek+MVVMTests" */;
+			buildPhases = (
+				CC5D940FCC282935B2D0FB9176D1EC28 /* Headers */,
+				42D11FD5A23A45C491A52F5CC46A6BD0 /* Sources */,
+				B3A1265901DE875E58DB399F1BD61E50 /* Frameworks */,
+				8DFFB39352525A98AAD488540E91D879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				706B16A853321E08F2C0A3BF4FC14719 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cartek+MVVMTests";
+			productName = Pods_Cartek_MVVMTests;
+			productReference = 8F056CDDA57A0296B68EDD95F50FBA12 /* Pods-Cartek+MVVMTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 915DF026870F7F841EEECE6ABCAC637C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81AA88F2453B4A0E544BF0FB08E13D87 /* CountryPickerView */,
+				43E53E03FD1BE73C8433078A971781F1 /* CountryPickerView-CountryPickerView_CountryPickerView */,
+				0C66815D479C63B50104FE776E5F71C9 /* Pods-Cartek+MVVM */,
+				BD341197DBFA32DC55EF74DF1FF24513 /* Pods-Cartek+MVVM-Cartek+MVVMUITests */,
+				FC7C95F8294C04CB01860893D6939060 /* Pods-Cartek+MVVMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51A745806DD87EC23AEB8AEE021B833A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF1A763ACF331D107369FE490388F62 /* CountryPickerView.xib in Resources */,
+				05DBACBC34F3284F06673711851EAC1A /* Data in Resources */,
+				DD35B1959A8AD92E9C9FB37CE1844C36 /* Images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C38FA91A95C5BFB8C6458502E04C782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFFB39352525A98AAD488540E91D879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FC880436BBF34A90E2DE935FFAEABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827542C01CF865F134E74BEFDA513C96 /* CountryPickerView-CountryPickerView_CountryPickerView in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9BD5407FFFD3CFEE8BA11B0282B214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42D11FD5A23A45C491A52F5CC46A6BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189057EF5EE1DACD150B2982DE5AB0A2 /* Pods-Cartek+MVVMTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FEB9DDEB5BE0C173CD2635AFBF0F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F1F57B01F6422709D0ACDF96E2ADDD /* Pods-Cartek+MVVM-Cartek+MVVMUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A403D9410AD1A8DA57B63A2513BCF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6567B0878FA393F9278242AB645B572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AAFAE075BE27ECA0ADF781A9A2E351 /* Bundle.swift in Sources */,
+				7ADEAC1BFEBFCF1CADF1C253537F1394 /* CountryPickerView.swift in Sources */,
+				DF2D69AAD6AA394C171E8BE866B474AA /* CountryPickerView-dummy.m in Sources */,
+				7BAE99FA1D2E2C7D903587E67BC9B593 /* CountryPickerViewController.swift in Sources */,
+				941B70D1D9818C99819B990A685F5DA9 /* Delegate+DataSource.swift in Sources */,
+				AD677B4BE46DE9F6FF3C5FEC9A11D4E4 /* Extensions.swift in Sources */,
+				235753E1964888C68DA0D95861369860 /* NibView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF033F1B212DB36A80B8BB29B6BEAC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CDF9F2413D0BA953084A1E39E92134 /* Pods-Cartek+MVVM-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09677E0EDC8B7CB8EA04F3959BC1AE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CountryPickerView-CountryPickerView_CountryPickerView";
+			target = 43E53E03FD1BE73C8433078A971781F1 /* CountryPickerView-CountryPickerView_CountryPickerView */;
+			targetProxy = FF94CCDE8FFBF47909274381C4F880D0 /* PBXContainerItemProxy */;
+		};
+		4B53E5C65EDFC4557539BE014FA571C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CountryPickerView;
+			target = 81AA88F2453B4A0E544BF0FB08E13D87 /* CountryPickerView */;
+			targetProxy = E01301621CC12144BBFFA04486632190 /* PBXContainerItemProxy */;
+		};
+		706B16A853321E08F2C0A3BF4FC14719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Cartek+MVVM";
+			target = 0C66815D479C63B50104FE776E5F71C9 /* Pods-Cartek+MVVM */;
+			targetProxy = 7AE3B50C2A687E92C0FFA28E3D46E526 /* PBXContainerItemProxy */;
+		};
+		AFB6F4F90E888F1C75DE56AC8572F651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CountryPickerView;
+			target = 81AA88F2453B4A0E544BF0FB08E13D87 /* CountryPickerView */;
+			targetProxy = 0601B1E1D2DA31EE9FE7ACC3AFA90828 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1A782F7E33DE323F94A73B8B5380B26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A30112306549253B3210F88004F5421 /* Pods-Cartek+MVVM.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cartek+MVVM/Pods-Cartek+MVVM-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cartek+MVVM/Pods-Cartek+MVVM.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F87CB008812A2AA909731F41B812E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1469C790F1D8B5DE6C480B12ADF50D7 /* Pods-Cartek+MVVMTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cartek+MVVMTests/Pods-Cartek+MVVMTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cartek+MVVMTests/Pods-Cartek+MVVMTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		385894FB95E936BFBDFF82D5758ACB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6511155669CBA3587FA19B1F94DEF222 /* CountryPickerView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerView";
+				IBSC_MODULE = CountryPickerView;
+				INFOPLIST_FILE = "Target Support Files/CountryPickerView/ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CountryPickerView_CountryPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		69742A6E6E086DEC950BC47FF6A547A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F5E4F2580B576E1999BC1C91DA0E2BC /* Pods-Cartek+MVVM.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cartek+MVVM/Pods-Cartek+MVVM-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cartek+MVVM/Pods-Cartek+MVVM.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CD8242FB2FB113BFA26B4807CB943DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C4F952DD13EE2619DB9DB1AE2CD50A /* Pods-Cartek+MVVM-Cartek+MVVMUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cartek+MVVM-Cartek+MVVMUITests/Pods-Cartek+MVVM-Cartek+MVVMUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cartek+MVVM-Cartek+MVVMUITests/Pods-Cartek+MVVM-Cartek+MVVMUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9210322E12AE9D97D10BCA430B2F9FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E096C7BE7D3CDBE24D168C08255C5F /* Pods-Cartek+MVVMTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cartek+MVVMTests/Pods-Cartek+MVVMTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cartek+MVVMTests/Pods-Cartek+MVVMTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C80F0AE4E4EE778C7AC673E1A9FE3140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6511155669CBA3587FA19B1F94DEF222 /* CountryPickerView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CountryPickerView/CountryPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CountryPickerView/CountryPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CountryPickerView/CountryPickerView.modulemap";
+				PRODUCT_MODULE_NAME = CountryPickerView;
+				PRODUCT_NAME = CountryPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D27B903C02B6C0A86E29A87451CC0405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B41C0051021E00061FAA75F0E8A7996 /* CountryPickerView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CountryPickerView/CountryPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CountryPickerView/CountryPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CountryPickerView/CountryPickerView.modulemap";
+				PRODUCT_MODULE_NAME = CountryPickerView;
+				PRODUCT_NAME = CountryPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E441026980245DA1803EBF11E37DEF71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B41C0051021E00061FAA75F0E8A7996 /* CountryPickerView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerView";
+				IBSC_MODULE = CountryPickerView;
+				INFOPLIST_FILE = "Target Support Files/CountryPickerView/ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CountryPickerView_CountryPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		ECCC9865DE916AC59A73EFCDE67682A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78322CEC0CC20ABE19CBCD2D7513DD43 /* Pods-Cartek+MVVM-Cartek+MVVMUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cartek+MVVM-Cartek+MVVMUITests/Pods-Cartek+MVVM-Cartek+MVVMUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cartek+MVVM-Cartek+MVVMUITests/Pods-Cartek+MVVM-Cartek+MVVMUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06575BEB49E1F713C9E60F1CA7E39613 /* Build configuration list for PBXNativeTarget "CountryPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80F0AE4E4EE778C7AC673E1A9FE3140 /* Debug */,
+				D27B903C02B6C0A86E29A87451CC0405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F622EEA68EC5E0FF02B2D905418EAA /* Build configuration list for PBXNativeTarget "Pods-Cartek+MVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F87CB008812A2AA909731F41B812E66 /* Debug */,
+				9210322E12AE9D97D10BCA430B2F9FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C7E215CA107258ED8BEFFD5261FC9FF /* Build configuration list for PBXNativeTarget "CountryPickerView-CountryPickerView_CountryPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385894FB95E936BFBDFF82D5758ACB70 /* Debug */,
+				E441026980245DA1803EBF11E37DEF71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10114C93801307AE77550DA7732B5D5 /* Build configuration list for PBXNativeTarget "Pods-Cartek+MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69742A6E6E086DEC950BC47FF6A547A4 /* Debug */,
+				1A782F7E33DE323F94A73B8B5380B26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFACDE2F7C38A69555E177BBA0D59EF6 /* Build configuration list for PBXNativeTarget "Pods-Cartek+MVVM-Cartek+MVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD8242FB2FB113BFA26B4807CB943DC /* Debug */,
+				ECCC9865DE916AC59A73EFCDE67682A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -20,7 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         if let loginVC = self.window?.rootViewController as? LoginViewController {
                    let loginManager = LoginManager.shared
-                   let loginViewModel = LoginViewModel(loginManager: loginManager)
+                   let databaseManager = DatabaseManager.shared
+                   let loginViewModel = LoginViewModel(loginManager: loginManager , databseManager: databaseManager)
                    loginVC.loginViewModel = loginViewModel
          }
     }

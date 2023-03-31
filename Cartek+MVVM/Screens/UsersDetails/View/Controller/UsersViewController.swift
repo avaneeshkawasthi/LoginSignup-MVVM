@@ -9,21 +9,25 @@ import UIKit
 
 class UsersViewController: UIViewController {
 
+    // MARK: - Outlets
+    @IBOutlet weak var usersTableView: UITableView!
+
+    // MARK: - Variables
+    var viewModel = UsersViewModel()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.configuration()
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func LogOutAction(_ sender: UIBarButtonItem) {
+        let storyBoard = UIStoryboard(name: "Main", bundle:nil)
+        let loginVC = storyBoard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+        let loginManager = LoginManager.shared
+        let databaseManager = DatabaseManager.shared
+        let loginViewModel = LoginViewModel(loginManager: loginManager , databseManager: databaseManager)
+        loginVC.loginViewModel = loginViewModel
+        UIApplication.shared.windows.first?.rootViewController = loginVC
+        UIApplication.shared.windows.first?.makeKeyAndVisible()
     }
-    */
-
 }

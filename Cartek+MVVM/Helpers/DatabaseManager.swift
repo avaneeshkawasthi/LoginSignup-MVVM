@@ -13,14 +13,16 @@ import SQLite3
 class DatabaseManager
 {
     static let shared = DatabaseManager()
+    
+    let dbPath: String = "myDatabse.sqlite"
+    var db:OpaquePointer?
+    
+    
     private init()
     {
         db = openDatabase()
         createTable()
     }
-
-    let dbPath: String = "myDatabse.sqlite"
-    var db:OpaquePointer?
 
     func openDatabase() -> OpaquePointer?
     {
@@ -45,9 +47,10 @@ class DatabaseManager
         {
             if sqlite3_step(createTableStatement) == SQLITE_DONE
             {
-                print("person table created.")
+                print("User table created.")
+                insert(id: 1, username: "AvaneeshK", password: "A12345")
             } else {
-                print("person table could not be created.")
+                print("User table could not be created.")
             }
         } else {
             print("CREATE TABLE statement could not be prepared.")
@@ -66,7 +69,7 @@ class DatabaseManager
                 return
             }
         }
-        let insertStatementString = "INSERT INTO User (Id, name, age) VALUES (?, ?, ?);"
+        let insertStatementString = "INSERT INTO User (Id, username, password) VALUES (?, ?, ?);"
         var insertStatement: OpaquePointer? = nil
         if sqlite3_prepare_v2(db, insertStatementString, -1, &insertStatement, nil) == SQLITE_OK {
             
@@ -102,21 +105,4 @@ class DatabaseManager
         sqlite3_finalize(queryStatement)
         return users
     }
-    
-    func deleteByID(id:Int) {
-        let deleteStatementStirng = "DELETE FROM person WHERE Id = ?;"
-        var deleteStatement: OpaquePointer? = nil
-        if sqlite3_prepare_v2(db, deleteStatementStirng, -1, &deleteStatement, nil) == SQLITE_OK {
-            sqlite3_bind_int(deleteStatement, 1, Int32(id))
-            if sqlite3_step(deleteStatement) == SQLITE_DONE {
-                print("Successfully deleted row.")
-            } else {
-                print("Could not delete row.")
-            }
-        } else {
-            print("DELETE statement could not be prepared")
-        }
-        sqlite3_finalize(deleteStatement)
-    }
-    
 }

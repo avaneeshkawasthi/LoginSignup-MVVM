@@ -1,0 +1,6 @@
+framework module Pods_Cartek_MVVM_Cartek_MVVMUITests {
+  umbrella header "Pods-Cartek+MVVM-Cartek+MVVMUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

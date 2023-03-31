@@ -27,6 +27,7 @@ extension ProductEndPoint: EndPointType {
         switch self {
         case .users:
             return "https://jsonplaceholder.typicode.com/"
+        }
     }
 
     var url: URL? {
@@ -37,12 +38,14 @@ extension ProductEndPoint: EndPointType {
         switch self {
         case .users:
             return .get
+        }
     }
 
     var body: Encodable? {
         switch self {
         case .users:
             return nil
+       }
     }
 
     var headers: [String : String]? {
