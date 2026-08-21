@@ -1,0 +1,30 @@
+<form class="card" [formGroup]="vm.form" (ngSubmit)="vm.submit()">
+  <p class="eyebrow dark">New operator</p>
+  <h1>Sign up</h1>
+
+  <label>
+    Full name
+    <input formControlName="fullName" autocomplete="name" />
+  </label>
+  <label>
+    Email
+    <input formControlName="email" type="email" autocomplete="email" />
+  </label>
+  <label>
+    Username
+    <input formControlName="username" autocomplete="username" />
+  </label>
+  <label>
+    Password
+    <input formControlName="password" type="password" autocomplete="new-password" />
+  </label>
+
+  @if (vm.errorMessage()) {
+    <p class="alert">{{ vm.errorMessage() }}</p>
+  }
+
+  <button class="btn btn-primary dark" type="submit" [disabled]="vm.submitting()">
+    {{ vm.submitting() ? 'Creating account…' : 'Create operator account' }}
+  </button>
+  <p class="switch">Already registered? <a routerLink="/login">Log in</a></p>
+</form>

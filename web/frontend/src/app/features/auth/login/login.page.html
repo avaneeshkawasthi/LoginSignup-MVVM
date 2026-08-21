@@ -1,0 +1,23 @@
+<form class="card" [formGroup]="vm.form" (ngSubmit)="vm.submit()">
+  <p class="eyebrow">Welcome back</p>
+  <h1>Log in</h1>
+  <p class="hint">Demo operator: <strong>AvaneeshK</strong> / <strong>A12345</strong></p>
+
+  <label>
+    Username
+    <input formControlName="username" autocomplete="username" />
+  </label>
+  <label>
+    Password
+    <input formControlName="password" type="password" autocomplete="current-password" />
+  </label>
+
+  @if (vm.errorMessage()) {
+    <p class="alert">{{ vm.errorMessage() }}</p>
+  }
+
+  <button class="btn btn-primary dark" type="submit" [disabled]="vm.submitting()">
+    {{ vm.submitting() ? 'Signing in…' : 'Enter the control room' }}
+  </button>
+  <p class="switch">Need an account? <a routerLink="/signup">Create one</a></p>
+</form>

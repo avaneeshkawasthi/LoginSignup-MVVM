@@ -1,0 +1,32 @@
+.card {
+  width: min(420px, 100%);
+  display: grid;
+  gap: 0.85rem;
+}
+
+h1 {
+  font-family: var(--serif);
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.eyebrow.dark { color: #9a6a2a; }
+.switch { color: #5c6570; }
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.92rem;
+}
+
+input {
+  border: 1px solid #d7cfc3;
+  background: #fff;
+  padding: 0.8rem 0.9rem;
+  font: inherit;
+  color: var(--ink);
+}
+
+.alert { color: #9b2c1f; }
+.switch a { color: var(--ink); }

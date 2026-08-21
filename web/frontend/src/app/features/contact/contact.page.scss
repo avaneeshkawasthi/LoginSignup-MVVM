@@ -1,0 +1,39 @@
+.page-hero { padding: 4rem 0 1rem; }
+
+h1 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(2.6rem, 6vw, 4.8rem);
+  max-width: 14ch;
+}
+
+.panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 760px;
+}
+
+label, .alert, button { grid-column: span 1; }
+.full, .alert, button { grid-column: 1 / -1; }
+
+label {
+  display: grid;
+  gap: 0.4rem;
+  color: var(--mist);
+}
+
+input, select, textarea {
+  background: color-mix(in srgb, var(--paper) 6%, transparent);
+  border: 1px solid color-mix(in srgb, var(--paper) 16%, transparent);
+  color: var(--paper);
+  padding: 0.8rem 0.9rem;
+  font: inherit;
+}
+
+.alert.error { color: #ffb4a8; }
+.alert.success { color: #b7e0c5; }
+
+@media (max-width: 700px) {
+  .panel { grid-template-columns: 1fr; }
+}

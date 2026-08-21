@@ -1,0 +1,23 @@
+h1, h2 {
+  font-family: var(--serif);
+  font-weight: 400;
+}
+
+h1 { font-size: clamp(2.4rem, 5vw, 4rem); }
+.eyebrow.dark { color: #9a6a2a; }
+.alert { color: #9b2c1f; }
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+article {
+  background: #fff;
+  border: 1px solid #e4dcd0;
+  padding: 1.1rem;
+}
+
+p { color: #5c6570; margin: 0.25rem 0 0; }

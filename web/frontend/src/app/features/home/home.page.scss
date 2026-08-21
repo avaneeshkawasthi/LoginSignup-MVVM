@@ -1,0 +1,82 @@
+.hero {
+  padding: 4.5rem 0 3rem;
+}
+
+.hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(3rem, 8vw, 6.4rem);
+  font-weight: 400;
+  line-height: 0.92;
+  max-width: 12ch;
+}
+
+.lede {
+  max-width: 48ch;
+  color: var(--mist);
+  font-size: 1.08rem;
+  margin: 1.4rem 0 2rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.stats,
+.pillars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.stats article,
+.pillars article,
+.band {
+  border: 1px solid color-mix(in srgb, var(--paper) 12%, transparent);
+  padding: 1.4rem;
+  background: color-mix(in srgb, var(--paper) 4%, transparent);
+}
+
+.stats strong {
+  display: block;
+  font-family: var(--serif);
+  font-size: 2.4rem;
+}
+
+.pillars {
+  margin-top: 1rem;
+}
+
+.pillars h2 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
+.band {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.band h2 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 2.2rem;
+}
+
+code {
+  color: var(--copper);
+}
+
+@media (max-width: 800px) {
+  .stats,
+  .pillars,
+  .band {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+}

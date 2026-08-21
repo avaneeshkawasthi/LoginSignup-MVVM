@@ -1,0 +1,12 @@
+{
+  "name": "cartek-web",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix frontend install && npm --prefix backend install",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix backend start",
+    "preview": "npm run build && PORT=4200 npm start",
+    "dev:api": "PORT=3000 npm --prefix backend start",
+    "dev:web": "npm --prefix frontend start"
+  }
+}

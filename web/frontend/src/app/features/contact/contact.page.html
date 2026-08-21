@@ -1,0 +1,38 @@
+<section class="page-hero">
+  <p class="eyebrow">Contact</p>
+  <h1>Tell us what the fleet needs next.</h1>
+</section>
+
+<form class="panel" [formGroup]="vm.form" (ngSubmit)="vm.submit()">
+  <label>
+    Name
+    <input formControlName="name" autocomplete="name" />
+  </label>
+  <label>
+    Email
+    <input formControlName="email" type="email" autocomplete="email" />
+  </label>
+  <label>
+    Topic
+    <select formControlName="topic">
+      <option>Operations</option>
+      <option>Partnerships</option>
+      <option>Support</option>
+    </select>
+  </label>
+  <label class="full">
+    Message
+    <textarea formControlName="message" rows="5"></textarea>
+  </label>
+
+  @if (vm.errorMessage()) {
+    <p class="alert error">{{ vm.errorMessage() }}</p>
+  }
+  @if (vm.successMessage()) {
+    <p class="alert success">{{ vm.successMessage() }}</p>
+  }
+
+  <button class="btn btn-primary" type="submit" [disabled]="vm.submitting()">
+    {{ vm.submitting() ? 'Sending…' : 'Send message' }}
+  </button>
+</form>

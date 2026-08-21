@@ -1,0 +1,16 @@
+<section>
+  <p class="eyebrow dark">Overview</p>
+  <h1>Hello, {{ auth.displayName() }}.</h1>
+  <p class="lede">You are inside the protected operator area. This is the web counterpart of the iOS users home screen.</p>
+</section>
+
+<section class="cards">
+  @for (card of cards; track card.title) {
+    <article>
+      <h2>{{ card.title }}</h2>
+      <p>{{ card.copy }}</p>
+    </article>
+  }
+</section>
+
+<a routerLink="/app/directory" class="btn btn-primary dark">Open directory</a>
