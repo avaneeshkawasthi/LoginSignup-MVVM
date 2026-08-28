@@ -1,0 +1,26 @@
+<header class="nav">
+  <a routerLink="/" class="brand">
+    <span class="brand-mark" aria-hidden="true">C</span>
+    <span class="brand-copy">
+      <strong>Cartek</strong>
+      <em>Fleet intelligence</em>
+    </span>
+  </a>
+
+  <button class="menu-toggle" type="button" (click)="menuOpen = !menuOpen" [attr.aria-expanded]="menuOpen">
+    {{ menuOpen ? 'Close' : 'Menu' }}
+  </button>
+
+  <nav class="links" [class.open]="menuOpen">
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+    <a routerLink="/about" routerLinkActive="active">About</a>
+    <a routerLink="/services" routerLinkActive="active">Services</a>
+    <a routerLink="/contact" routerLinkActive="active">Contact</a>
+    @if (auth.isAuthenticated()) {
+      <a routerLink="/app" class="ghost">Dashboard</a>
+    } @else {
+      <a routerLink="/login" class="ghost">Log in</a>
+      <a routerLink="/signup" class="cta">Create account</a>
+    }
+  </nav>
+</header>

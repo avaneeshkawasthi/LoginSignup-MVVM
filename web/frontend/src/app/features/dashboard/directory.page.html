@@ -1,0 +1,23 @@
+<section>
+  <p class="eyebrow dark">People</p>
+  <h1>Operator directory</h1>
+</section>
+
+@if (vm.loading()) {
+  <p>Loading directory…</p>
+}
+
+@if (vm.errorMessage()) {
+  <p class="alert">{{ vm.errorMessage() }}</p>
+}
+
+<div class="list">
+  @for (user of vm.users(); track user.id) {
+    <article>
+      <h2>{{ user.name }}</h2>
+      <p>{{ user.company.name }}</p>
+      <p>{{ user.email }} · {{ user.phone }}</p>
+      <p>{{ user.address.city }}</p>
+    </article>
+  }
+</div>

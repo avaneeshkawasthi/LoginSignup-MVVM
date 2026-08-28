@@ -1,0 +1,40 @@
+.page-hero {
+  padding: 4rem 0 1rem;
+}
+
+h1, h2 {
+  font-family: var(--serif);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: clamp(2.6rem, 6vw, 4.8rem);
+  max-width: 16ch;
+}
+
+.story p {
+  max-width: 68ch;
+  color: var(--mist);
+  font-size: 1.08rem;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+article {
+  padding: 1.5rem;
+  border: 1px solid color-mix(in srgb, var(--paper) 12%, transparent);
+}
+
+li {
+  margin: 0.55rem 0;
+  color: var(--mist);
+}
+
+@media (max-width: 800px) {
+  .split { grid-template-columns: 1fr; }
+}

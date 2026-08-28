@@ -1,0 +1,27 @@
+h1, h2 {
+  font-family: var(--serif);
+  font-weight: 400;
+}
+
+h1 { font-size: clamp(2.4rem, 5vw, 4rem); margin: 0.2rem 0 0.8rem; }
+.eyebrow.dark { color: #9a6a2a; }
+.lede { max-width: 54ch; color: #5c6570; }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+article {
+  background: #fff;
+  padding: 1.3rem;
+  border: 1px solid #e4dcd0;
+}
+
+p { color: #5c6570; }
+
+@media (max-width: 800px) {
+  .cards { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,39 @@
+<section class="hero">
+  <p class="eyebrow">Cartek platform</p>
+  <h1>Move the fleet. Keep the signal clean.</h1>
+  <p class="lede">
+    A modern control surface for login, operations, and customer teams — designed with the same
+    MVVM discipline as the original Cartek iOS app.
+  </p>
+  <div class="actions">
+    <a routerLink="/signup" class="btn btn-primary">Create an operator</a>
+    <a routerLink="/login" class="btn btn-ghost">Log in</a>
+  </div>
+</section>
+
+<section class="stats">
+  @for (stat of stats; track stat.label) {
+    <article>
+      <strong>{{ stat.value }}</strong>
+      <span>{{ stat.label }}</span>
+    </article>
+  }
+</section>
+
+<section class="pillars">
+  @for (pillar of pillars; track pillar.title) {
+    <article>
+      <h2>{{ pillar.title }}</h2>
+      <p>{{ pillar.copy }}</p>
+    </article>
+  }
+</section>
+
+<section class="band">
+  <div>
+    <p class="eyebrow">Demo access</p>
+    <h2>Use the original Cartek credentials.</h2>
+    <p>Username <code>AvaneeshK</code> · Password <code>A12345</code></p>
+  </div>
+  <a routerLink="/about" class="btn btn-ghost">Read the story</a>
+</section>

@@ -1,13 +1,20 @@
 # LoginSignup-MVVM
-Basic login and signup using the MVVM Modern Architecture Design
 
+Basic login and signup using MVVM. The original iOS app remains in `Cartek+MVVM`. The new web platform lives in `web/`.
 
-#How to use the App  
+## iOS demo account
 
- here is the Username : AvaneeshK
-             Password : A12345
-             
- after landing to the Application provide these username and password to login to main user screen
- to check the validation you can use any other credentials.
- 
- 
+- Username: `AvaneeshK`
+- Password: `A12345`
+
+## Web preview
+
+```bash
+cd web
+npm run install:all
+npm run preview
+```
+
+Then open http://localhost:4200
+
+See `web/README.md` for architecture notes.

@@ -1,0 +1,20 @@
+<section class="page-hero">
+  <p class="eyebrow">Services</p>
+  <h1>Everything an operator needs after the handshake.</h1>
+</section>
+
+<section class="cards">
+  @for (service of services; track service.title) {
+    <article>
+      <h2>{{ service.title }}</h2>
+      <p>{{ service.copy }}</p>
+    </article>
+  }
+</section>
+
+<p class="cta-row">
+  Ready to see it?
+  <a routerLink="/contact">Talk to Cartek</a>
+  or
+  <a routerLink="/signup">create an account</a>.
+</p>
