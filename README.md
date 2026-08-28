@@ -9,6 +9,8 @@ Basic login and signup using MVVM. The original iOS app remains in `Cartek+MVVM`
 
 ## Web preview
 
+Requires Node.js 22.13 or newer.
+
 ```bash
 cd web
 npm run install:all

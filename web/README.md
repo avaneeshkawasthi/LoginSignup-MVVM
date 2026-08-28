@@ -2,6 +2,8 @@
 
 Angular 19 operator website with login, signup, and public marketing pages. The API uses a layered architecture and SQLite so the persistence engine can be replaced later without rewriting feature code.
 
+Requires **Node.js 22.13 or newer**. Check with `node -v`. SQLite is the built-in Node module, so install does not compile a native database driver.
+
 ## Local preview
 
 ```bash

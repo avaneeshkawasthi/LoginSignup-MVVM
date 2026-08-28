@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import Database from 'better-sqlite3';
+import { DatabaseSync } from 'node:sqlite';
 import { env } from '../../config/env.js';
 
 let db;
@@ -13,9 +13,9 @@ export function getDatabase() {
   const directory = path.dirname(env.databasePath);
   fs.mkdirSync(directory, { recursive: true });
 
-  db = new Database(env.databasePath);
-  db.pragma('journal_mode = WAL');
-  db.pragma('foreign_keys = ON');
+  db = new DatabaseSync(env.databasePath);
+  db.exec('PRAGMA journal_mode = WAL');
+  db.exec('PRAGMA foreign_keys = ON');
   migrate(db);
   return db;
 }

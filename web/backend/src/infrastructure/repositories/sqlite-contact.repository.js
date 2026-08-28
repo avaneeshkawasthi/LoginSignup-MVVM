@@ -9,9 +9,9 @@ export class SqliteContactRepository {
     const result = this.db
       .prepare(
         `INSERT INTO contact_messages (name, email, topic, message)
-         VALUES (@name, @email, @topic, @message)`
+         VALUES (?, ?, ?, ?)`
       )
-      .run({ name, email, topic, message });
+      .run(name, email, topic, message);
 
     return {
       id: Number(result.lastInsertRowid),
