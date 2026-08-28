@@ -44,11 +44,11 @@ export class SqliteUserRepository {
     const result = this.db
       .prepare(
         `INSERT INTO users (username, email, full_name, password_hash)
-         VALUES (@username, @email, @fullName, @passwordHash)`
+         VALUES (?, ?, ?, ?)`
       )
-      .run({ username, email, fullName, passwordHash });
+      .run(username, email, fullName, passwordHash);
 
-    return this.findById(result.lastInsertRowid);
+    return this.findById(Number(result.lastInsertRowid));
   }
 
   count() {
